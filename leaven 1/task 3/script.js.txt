@@ -1,0 +1,40 @@
+let currentInput = '';
+let display = document.getElementById('display');
+
+function appendNumber(num) {
+  if (display.innerText === '0') display.innerText = '';
+  currentInput += num;
+  display.innerText = currentInput;
+}
+
+function appendOperator(op) {
+  if (currentInput === '') return;
+  const lastChar = currentInput.slice(-1);
+  if ('+-*/%'.includes(lastChar)) {
+    currentInput = currentInput.slice(0, -1) + op;
+  } else {
+    currentInput += op;
+  }
+  display.innerText = currentInput;
+}
+
+function clearDisplay() {
+  currentInput = '';
+  display.innerText = '0';
+}
+
+function backspace() {
+  currentInput = currentInput.slice(0, -1);
+  display.innerText = currentInput || '0';
+}
+
+function calculate() {
+  try {
+    const result = eval(currentInput);
+    display.innerText = result;
+    currentInput = result.toString();
+  } catch {
+    display.innerText = 'Error';
+    currentInput = '';
+  }
+}
