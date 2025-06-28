@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Ansh Koshti</h1>
+    <p>Turning ideas into clean code.</p>
+  </header>
+
+  <section class="about">
+    <img src="my-photo.jpg" alt="My Photo"/>
+    <p>Hello! I'm Ansh, a web enthusiast who enjoys bringing websites to life. I focus on writing clean, efficient code and love learning new technologies.</p>
+  </section>
+
+  <section class="skills">
+    <h2>What I Know</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript (Basics)</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Things I've Built</h2>
+    <div class="project">
+      <h3>Simple Weather App</h3>
+      <p>A web app that shows weather updates using OpenWeatherMap API.</p>
+      <img src="weather-app.png" alt="Weather App Screenshot" />
+    </div>
+    <div class="project">
+      <h3>Personal Blog Design</h3>
+      <p>Created a clean blog layout using only HTML and CSS.</p>
+      <img src="blog-design.png" alt="Blog Screenshot" />
+    </div>
+  </section>
+
+  <section class="resume">
+    <h2>My Resume</h2>
+    <a href="resume.pdf" target="_blank">Download Resume</a>
+  </section>
+
+  <section class="contact">
+    <h2>Let's Connect</h2>
+    <p>Email: ansh@example.com</p>
+    <p>Phone: +91-9876543210</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Ansh Koshti. Built with love and a bit of caffeine ☕.</p>
+  </footer>
+</body>
+</html>
