@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f7fc;
+  color: #333;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+.card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-left: 8px solid #3756f7;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #3b5bff, #3756f7);
+  color: white;
+  padding: 20px 30px;
+}
+
+.level {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.4em;
+  flex: 1;
+}
+
+.task {
+  font-size: 1.8em;
+  font-weight: 800;
+  background: white;
+  color: #3756f7;
+  padding: 5px 15px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.number {
+  background: #2b3cd1;
+  padding: 5px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.title {
+  text-align: center;
+  margin: 25px 0 15px;
+  font-size: 1.8em;
+  color: #2b3cd1;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.description {
+  padding: 0 30px 30px;
+  font-size: 1.1em;
+  color: #444;
+}
+
+.description strong {
+  color: #3756f7;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task, .number {
+    margin: 5px 0;
+  }
+}
