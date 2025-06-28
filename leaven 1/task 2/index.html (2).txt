@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="level">LEVEL 1</div>
+      <div class="task">TASK</div>
+      <div class="number">2</div>
+    </div>
+    <div class="title">Landing Page</div>
+    <div class="description">
+      A landing page is an ideal web development project for beginners. It requires basic knowledge of HTML and CSS. Through this project, you'll learn to create columns, divide sections, arrange items, and add headers and footers. The most important aspect is unleashing your creativity to design an impressive page.
+      <br><br>
+      Pay attention to <strong>alignments, padding, color palette, boxes,</strong> and other elements. Be mindful of CSS to avoid overlapping elements.
+      <br><br>
+      In short, a landing page project allows you to apply HTML and CSS skills, encouraging your creativity while ensuring a visually appealing and user-friendly design.
+    </div>
+  </div>
+</body>
+</html>
